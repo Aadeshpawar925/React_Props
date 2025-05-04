@@ -4,7 +4,7 @@ export default function Characters (props) {
     return (
         <article className="character-card">
 
-            <img src={props.img} alt="luffy-pic" />
+            <img src={props.img.src} alt={props.img.alt} />
 
             <h1>{props.name}</h1>
             <div className="info-group">
